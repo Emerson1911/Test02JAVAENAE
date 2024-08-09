@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú de Navegación</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            background-color: #343a40;
+            overflow: hidden;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: #f8f9fa;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #495057;
+            color: white;
+        }
+        .navbar a.active {
+            background-color: #007bff;
+            color: white;
+        }
+        .container {
+            padding: 20px;
+        }
+        .header-title {
+            margin-top: 20px;
+            color: #343a40;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="/producto" class="active">Producto</a>
+        <a href="#">Orden</a>
+        <a href="#">Detalles Orden</a>
+    </div>
+    <div class="container text-center">
+        <h1 class="header-title">Seleccione un CRUD</h1>
+    </div>
+</body>
+</html>
